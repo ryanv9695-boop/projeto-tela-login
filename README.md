@@ -1,17 +1,29 @@
-# flutter_application_1
+# Tela de Perfil em Flutter 📱
 
-A new Flutter project.
+Interface de um perfil de usuário desenvolvida em Flutter utilizando componentes do Material Design como parte de um exercício prático.
 
-## Getting Started
+## 🚀 Funcionalidades
 
-This project is a starting point for a Flutter application.
+- **Foto de perfil:** Exibição centralizada através do `CircleAvatar`.
+- **Nome do usuário:** Destaque em negrito e tamanho customizado.
+- **Informações de contato:** Organização de ícones e textos em linhas (`Row`) para e-mail e telefone.
+- **Feedback interativo:** Botão de ação "Seguir" que aciona uma mensagem temporária (`SnackBar`) via `ScaffoldMessenger`.
 
-A few resources to get you started if this is your first Flutter project:
+## 🛠️ Tecnologias Utilizadas
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- [Flutter](https://flutter.dev/) - Framework UI
+- [Dart](https://dart.dev/) - Linguagem de programação
+- **Material Design** - Biblioteca de componentes visuais (`Scaffold`, `Column`, `Row`, `ElevatedButton`, `SnackBar`)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🖥️ Como Executar o Projeto
+
+### Pré-requisitos
+- Flutter SDK instalado na sua máquina
+- Emulador Android/iOS ou dispositivo físico conectado
+- Editor de código (VS Code ou Android Studio)
+
+### Passos
+
+1. **Clone este repositório:**
+   ```bash
+   git clone [https://github.com/seu-usuario/projeto-tela-login.git](https://github.com/seu-usuario/projeto-tela-login.git)
