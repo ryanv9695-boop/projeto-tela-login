@@ -30,7 +30,7 @@ class _CalculadoraPageState extends State<CalculadoraPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Calculadora Simples"),
+        title: Text("Calculadora"),
       ),
       body: Padding(
         padding: EdgeInsets.all(20.0),
