@@ -31,10 +31,7 @@ class MeuApp extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text(
-                      'Bem-vindo ao app!',
-                      style: TextStyle(fontSize: 24),
-                    ),
+                    Text('Bem-vindo ao app!', style: TextStyle(fontSize: 24)),
                     SizedBox(height: 20),
                     Image.network('https://picsum.photos/300/200'),
                   ],
@@ -66,10 +63,7 @@ class MeuApp extends StatelessWidget {
                       backgroundImage: AssetImage('assets/Carvalho.jpg'),
                     ),
                     SizedBox(height: 20),
-                    Text(
-                      'Ryan Victor',
-                      style: TextStyle(fontSize: 24),
-                    ),
+                    Text('Ryan Victor', style: TextStyle(fontSize: 24)),
                   ],
                 ),
               ),

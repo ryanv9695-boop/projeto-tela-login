@@ -7,13 +7,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp( // Configura o widget raiz da aplicação[cite: 31]
+    return MaterialApp(
+      // Configura o widget raiz da aplicação[cite: 31]
       debugShowCheckedModeBanner: false,
       title: 'Meu App',
-      home: Scaffold( // Esqueleto padrão da tela[cite: 32]
-        appBar: AppBar(
-          title: const Text('Tela de Perfil'),
-        ),
+      home: Scaffold(
+        // Esqueleto padrão da tela[cite: 32]
+        appBar: AppBar(title: const Text('Tela de Perfil')),
         body: const Center(
           child: Text(
             'Olá, Flutter!',

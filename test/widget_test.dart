@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 
 // Import correto usando o nome do pacote do pubspec.yaml
-import 'package:flutter_application_1/main.dart'; 
+import 'package:flutter_application_1/main.dart';
 
 void main() {
   testWidgets('Teste básico do aplicativo', (WidgetTester tester) async {
